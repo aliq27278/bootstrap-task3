@@ -1,3 +1,4 @@
+
 h3{
 text-align: center;
 }
@@ -50,13 +51,9 @@ text-align: center;
 	border:5px solid white; 
 	background-color: blue;
 }
-@media  only screen and (max-width: 600px){
-    .block-01.block-02.block-03.block-04.block-05.block-06.block-07.block-08.block-09{
-    	 -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-    }
-    h3{
-    	color: red;
+@media(max-width: 600px){
+.block-01.block-02.block-03.block-04.block-05.block-06.block-07.block-08.block-09{
+   
+    width: 100%;
     }
 }
